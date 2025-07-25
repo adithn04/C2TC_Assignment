@@ -3,7 +3,6 @@ package Assignment3;
 public class Transaction {
 	
 	    public static final double transactionFee = 2.5;
-
 	    public final void performTransaction(Account account, String type, double amount) {
 	        System.out.println("Transaction Fee: " + transactionFee);
 

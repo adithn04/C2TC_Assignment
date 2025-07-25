@@ -14,6 +14,7 @@ public class BankingDemo {
 	        savings.displayAccountDetails();
 	        checking.displayAccountDetails();
 
+	        
 	        System.out.println("Total Accounts Created: " + Bank.getTotalAccounts());
 	    }
 	}

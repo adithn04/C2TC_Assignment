@@ -13,7 +13,7 @@ public class CheckingAccount extends Account{
 	            System.out.println("Deposited " + amount + " into Checking Account.");
 	        }
 	    }
-
+	    
 	    @Override
 	    public void withdraw(double amount) {
 	        if (amount <= balance) {

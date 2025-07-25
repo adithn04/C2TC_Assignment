@@ -7,7 +7,6 @@ public class Bank {
 	    public static int getTotalAccounts() {
 	        return totalAccounts;
 	    }
-
 	    public static void incrementAccountCount() {
 	        totalAccounts++;
 	    }
