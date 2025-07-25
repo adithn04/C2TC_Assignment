@@ -8,6 +8,7 @@ public abstract class Account {
 	    public Account(String accountNumber, double initialBalance) {
 	        this.accountNumber = accountNumber;
 	        this.balance = initialBalance;
+	        
 	        Bank.incrementAccountCount();
 	    }
 
