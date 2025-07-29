@@ -1,4 +1,4 @@
-package Day8.Work;
+package Assignment4;
 
 public class Customer {
     private Dmart choice;
